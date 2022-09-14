@@ -138,21 +138,21 @@ class TestAnswer():
 
     def test_set_add(self):
         TestAnswer.__total__ += 1
-        S1,union_s,sum_s = answer.set()
+        S1,union_s,sum_s = answer.set_op()
         assert (S1 == {0, 1, 2, 3, 4})
 
         TestAnswer.__correct__ += 1
 
     def test_set_union(self):
         TestAnswer.__total__ += 1
-        S1,union_s,sum_s = answer.set()
+        S1,union_s,sum_s = answer.set_op()
         assert (union_s == {0, 1, 2, 3, 4, 5, 6})
 
         TestAnswer.__correct__ += 1
 
     def test_set_sum(self):
         TestAnswer.__total__ += 1
-        S1, union_s, sum_s = answer.set()
+        S1, union_s, sum_s = answer.set_op()
         assert (sum_s == sum({0, 1, 2, 3, 4, 5, 6}))
 
         TestAnswer.__correct__ += 1
