@@ -15,7 +15,7 @@ def tuple_op():
 
     t2 =
 
-    # Concatenate tuple (5,6) and assign it to a new variable t2
+    # Concatenate tuple (5,6) and assign it to a new variable t3
 
     t3 =
 
