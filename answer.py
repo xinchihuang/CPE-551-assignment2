@@ -6,20 +6,20 @@ Python Core object Types
 import math
 def tuple_op():
 
-    # Assign the first element of the tuple "t1" to variable x
+    # Assign the first element of the tuple t1 to variable x
     t1 = (13, 100, 99, 100, 999)
 
     x =
 
-    # Assign the second to the last element of the tuple "t1" to variable t2
+    # Assign the second to the last element of the tuple t1 to variable t2
 
     t2 =
 
-    # Concatenate tuple (5,6) and assign it to a new variable t3
+    # Concatenate tuple t2 (5,6) and assign it to a new variable t3
 
     t3 =
 
-    # What is the maximum value in the tuple "t2"? Assign it to variable n
+    # What is the maximum value in the tuple t2? Assign it to variable n
     n =
 
     return x,t2,t3,n
