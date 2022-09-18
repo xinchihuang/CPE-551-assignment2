@@ -25,13 +25,13 @@ class TestAnswer():
         assert(x==13)
         TestAnswer.__correct__ += 1
 
-    def test_tuple_y(self):
+    def test_tuple_t2(self):
         TestAnswer.__total__ += 1
         x, t2, t3, n = answer.tuple_op()
         assert (t2 == (100, 99, 100, 999))
         TestAnswer.__correct__ += 1
 
-    def test_tuple_t2(self):
+    def test_tuple_t3(self):
         TestAnswer.__total__ += 1
         x, t2, t3, n = answer.tuple_op()
         assert (t3 == (100, 99, 100, 999,5,6))
